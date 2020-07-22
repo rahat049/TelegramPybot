@@ -28,7 +28,7 @@ def handle(msg):
     elif command == '/kuetlogo':
         bot.sendPhoto (chat_id, photo = open('/home/pi/Downloads/logo.png'))
     #elif command == '/file':
-    #    bot.sendDocument(chat_id, document=open('/home/pi/Aisha.py'))
+    #    bot.sendDocument(chat_id, document=open('/home/pi/'))
     elif command == '/welcome_audio':
         bot.sendAudio(chat_id, audio=open('/home/pi/Downloads/welcome.mp3'))
     elif command == '/thermodynamics':
@@ -42,7 +42,7 @@ def handle(msg):
     elif command == '/liveclassrecord':
         bot.sendMessage (chat_id,str('https://drive.google.com/drive/folders/1IOaVsP1LhgyqFL_TquPbyb0OGJwSm6jK?usp=sharing') )
     elif command == '/userguide':
-        bot.sendMessage(chat_id,str('User Guide:\n (Type those words for access or click on the word)\n /hi \n /time \n /kuetlogo \n /welcome_audio \n /thermodynamics \n /fluidmechanics \n /math \n /sociology \n /Electronics \n '))
+        bot.sendMessage(chat_id,str('User Guide:\n (Type those words for access or click on the word)\n /hi \n /help \n /time \n /kuetlogo \n /welcome_audio \n /thermodynamics \n /fluidmechanics \n /math \n /sociology \n /Electronics \n '))
     elif command == '/books':
         bot.sendMessage(chat_id,str('https://drive.google.com/drive/folders/1E3N096a1Kseie9Ce4etfg0eUYLFQh6dU?usp=sharing'))
     elif command == '/fluidmechanics':
