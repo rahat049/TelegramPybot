@@ -1,0 +1,12 @@
+User Guide:
+/hi 
+/time 
+/kuetlogo 
+/welcome_audio 
+/thermodynamics 
+/fluidmechanics 
+/math
+/sociology 
+/Electronics
+N:B: If I disconnected from online please be patient. When I am in online I will follow your command and send you the file/link you want.Happy MechaBoting! :)
+
