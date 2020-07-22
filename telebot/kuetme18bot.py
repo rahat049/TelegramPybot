@@ -7,13 +7,7 @@ from telepot.loop import MessageLoop
 """
 After **inserting token** in the source code, run it:
 ```
-$ python2.7 diceyclock.py
-```
-[Here is a tutorial](http://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
-teaching you how to setup a bot on Raspberry Pi. This simple bot does nothing
-but accepts two commands:
-- `/roll` - reply with a random integer between 1 and 6, like rolling a dice.
-- `/time` - reply with the current time, like a clock.
+$ python2.7 kuetme18bot.py
 """
 
 def handle(msg):
