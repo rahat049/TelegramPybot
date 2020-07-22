@@ -8,6 +8,10 @@ from telepot.loop import MessageLoop
 After **inserting token** in the source code, run it:
 ```
 $ python2.7 kuetme18bot.py
+
+...
+telegram bot link: http://t.me/kuetme18bot
+
 """
 
 def handle(msg):
