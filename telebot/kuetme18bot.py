@@ -4,7 +4,7 @@ import datetime
 import telepot
 from telepot.loop import MessageLoop
 import os
-token = os.environ['TELEGRAM_TOKEN']
+token = os.environ['1393924527:AAHjxbXMdLhR1MLVyVD9qAAKb0I0d9QEfxA']
 
 
 def handle(msg):
